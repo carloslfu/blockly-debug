@@ -278,7 +278,7 @@ Blockly.Css.CONTENT = [
   '}',
 
   '.blocklyIconGroup:hover>.blocklyIconMark {',
-  '  fill: #fff;',
+  '  fill: #000;',
   '}',
 
   '.blocklyIconMark {',
