@@ -282,7 +282,7 @@ Blockly.Css.CONTENT = [
   '  fill: #ccc;',
   '  font-family: sans-serif;',
   '  font-size: 9pt;',
-  '  font-weight: 700;',
+  (goog.userAgent.MOBILE && goog.userAgent.ANDROID && goog.userAgent.WEBKIT)?'font-weight: normal;':'font-weight: bold;',
   '  text-anchor: middle;',
   '}',
 
