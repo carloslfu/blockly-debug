@@ -279,8 +279,11 @@ Blockly.Css.CONTENT = [
 
   '.blocklyIconMark {',
   '  cursor: default !important;',
+  '  fill: #ccc;',
   '  font-family: sans-serif;',
-
+  '  font-size: 9pt;',
+  //'  font-weight: bold;',
+  '  text-anchor: middle;',
   '}',
 
   '.blocklyWarningBody {',
