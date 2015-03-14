@@ -280,8 +280,7 @@ Blockly.Css.CONTENT = [
   '.blocklyIconMark {',
   '  cursor: default !important;',
   '  fill: #ccc;',
-  //fix bug with mutator icon in android webkit
-  (goog.userAgent.ANDROID && goog.userAgent.WEBKIT)?'font-family: u2400;':'font-family: sans-serif;',
+  '  font-family: sans-serif;',
   '  font-size: 9pt;',
   '  font-weight: bold;',
   '  text-anchor: middle;',
